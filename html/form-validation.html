@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Business Casual - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <script src="../js/validate-form.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">Orlando-Based Shopping & Retail Small Business</span>
+                <span class="site-heading-lower">This Tuesday</span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <<li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="../index.html">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about-contact-us.html">About</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Products</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="form-validation.html">Registration</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                        <div class="cta-inner bg-faded text-center rounded">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper">To Learn More...</span>
+                                <span class="section-heading-lower">Sign Up for Our Email Weekly Newsletter!</span>
+                            </h2>
+                            <form  action = "/cgi-bin/test-cgi.cgi" name = "myForm" onsubmit = "return(validate()) && validateEmail();">
+                                <table cellspacing = "2" cellpadding = "2" border = "0">
+                                
+                                    <tr>
+                                    <td align = "right">First Name</td>
+                                    <td><input type = "text" name = "FirstName" /></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                    <td align = "right">Last Name</td>
+                                    <td><input type = "text" name = "LastName" /></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                    <td align = "right">Address</td>
+                                    <td><input type = "text" name = "Address" /></td>
+                                    </tr>
+                    
+                                    <tr>
+                                        <td align = "right">City</td>
+                                        <td><input type = "text" name = "City" /></td>
+                                    </tr>
+                    
+                                    <tr>
+                                        <td align = "right">State</td>
+                                        <td>
+                                            <select name = "State">
+                                                <option value = "-1" selected>[select]</option>
+                                                <option value="AL">Alabama</option>
+                                                <option value="AK">Alaska</option>
+                                                <option value="AZ">Arizona</option>
+                                                <option value="AR">Arkansas</option>
+                                                <option value="CA">California</option>
+                                                <option value="CO">Colorado</option>
+                                                <option value="CT">Connecticut</option>
+                                                <option value="DE">Delaware</option>
+                                                <option value="DC">District Of Columbia</option>
+                                                <option value="FL">Florida</option>
+                                                <option value="GA">Georgia</option>
+                                                <option value="HI">Hawaii</option>
+                                                <option value="ID">Idaho</option>
+                                                <option value="IL">Illinois</option>
+                                                <option value="IN">Indiana</option>
+                                                <option value="IA">Iowa</option>
+                                                <option value="KS">Kansas</option>
+                                                <option value="KY">Kentucky</option>
+                                                <option value="LA">Louisiana</option>
+                                                <option value="ME">Maine</option>
+                                                <option value="MD">Maryland</option>
+                                                <option value="MA">Massachusetts</option>
+                                                <option value="MI">Michigan</option>
+                                                <option value="MN">Minnesota</option>
+                                                <option value="MS">Mississippi</option>
+                                                <option value="MO">Missouri</option>
+                                                <option value="MT">Montana</option>
+                                                <option value="NE">Nebraska</option>
+                                                <option value="NV">Nevada</option>
+                                                <option value="NH">New Hampshire</option>
+                                                <option value="NJ">New Jersey</option>
+                                                <option value="NM">New Mexico</option>
+                                                <option value="NY">New York</option>
+                                                <option value="NC">North Carolina</option>
+                                                <option value="ND">North Dakota</option>
+                                                <option value="OH">Ohio</option>
+                                                <option value="OK">Oklahoma</option>
+                                                <option value="OR">Oregon</option>
+                                                <option value="PA">Pennsylvania</option>
+                                                <option value="RI">Rhode Island</option>
+                                                <option value="SC">South Carolina</option>
+                                                <option value="SD">South Dakota</option>
+                                                <option value="TN">Tennessee</option>
+                                                <option value="TX">Texas</option>
+                                                <option value="UT">Utah</option>
+                                                <option value="VT">Vermont</option>
+                                                <option value="VA">Virginia</option>
+                                                <option value="WA">Washington</option>
+                                                <option value="WV">West Virginia</option>
+                                                <option value="WI">Wisconsin</option>
+                                                <option value="WY">Wyoming</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                    
+                                    <tr>
+                                        <td align = "right">Zip Code</td>
+                                        <td><input type = "text" name = "ZipCode" /></td>
+                                    </tr>
+                    
+                                    <tr>
+                                        <td align = "right">Phone Number</td>
+                                        <td><input type = "text" name = "PhoneNumber" /></td>
+                                        <td>
+                                          <input type="radio" id="personal" name="NumberType" value="Personal">
+                                          <label for="personal">Personal</label><br>
+                                          <input type="radio" id="business" name="NumberType" value="Business">
+                                          <label for="business">Business</label><br>
+                                        </td>
+                                    </tr>
+                    
+                                    <tr>
+                                        <td align = "right">Email Address</td>
+                                        <td><input type = "text" name = "Email" /></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                    <td align = "right"></td>
+                                    <td><input type = "submit" value = "Submit" /></td>
+                                    </tr>
+                                
+                                </table>
+                            </form>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright &copy; This Tuesday 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
